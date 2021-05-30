@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+body{
+    background: #eeeeee;
+}
+.main-container{
+    box-shadow: #ccccccf5 2px 1px 10px, #acaaaa1f 2px 1px 1px;
+    padding-bottom: 100px;
+}
+.card-header{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.card-title{
+    padding-top: 0.7rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.list-group{
+    box-shadow: #cdc9c9f5 2px 4px 7px, rgb(172 170 170 / 12%) 2px 3px 5px;
+}
+.list-group >a{
+    transition: all 1s;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.list-group >a:hover{
+    transform: translate3d(40px,0px,0px);
+    text-decoration: underline;
+}
+.side-img-box{
+    overflow: hidden;
+}
+.col{
+    margin-bottom: 2rem;
+}
+.topic-box{
+    box-shadow: #ccccccf5 2px 1px 3px, #acaaaa1f 2px 1px 1px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.topic-box:hover{
+    box-shadow: #b3b2b2f5 3px 2px 2px, #acaaaa1f 2px 3px 3px;
+    transform: translate3d(0px,20px,0px);
+}
+.card{
+    border: none;
+}
+.card-body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.card-img-top{
+    height: 226px;
+}
+.card-text{
+    color: #000;
+}

@@ -1,0 +1,133 @@
+.custom_nav{
+    font-size: small;
+    background-color: chocolate;
+    padding: 10px;
+}
+.btn-lg{
+    size: 0px 20px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 1300px;
+    height: 200px;
+    border: 5px solid darkgoldenrod;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:lightpink;
+    color: black;
+  }
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  #colm{
+      border-radius: 2px;
+      border-color: black;
+      border: blue;
+      box-shadow: brown;
+      background-color: chartreuse;
+  }
+  .video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+  .mhealth{
+    text-align: center;
+    font-family:Lobster;
+  }
+  .maincontent{
+    /* background-color:darkgray; */
+    background:url(https://cdn.pixabay.com/photo/2020/08/08/17/44/cockle-5473563_1280.jpg) ;
+  }
+  .para1{
+    margin: 20px;
+    font-family: Lobster;
+    font-size: x-large;
+  }
+  .warn{
+    text-align: center;
+    color:blue;
+    font-family:'Pacifico', cursive;;
+  }
+  .wrn{
+    margin: 20px;
+    font-family: pacifico;
+    font-size: x-large;
+  }
+  .list{
+    margin: 40px;
+    font-family: Lobster;
+    font-size: x-large;
+    color:black;
+    border: 2px solid red;
+    /* background-color: black; */
+  }
+  .tag1{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    color:lightcoral;
+    font-family: pacifico,cursive;
+    font-size: x-large;
+  }
+  #colm{
+    border: 2px solid black;
+    color: brown;
+    font-family:pacifico,bold;
+    height: fit-content;
+    background-color: cyan;
+  }
+  .myt{
+    text-align: center;
+    font-family: pacifico;
+    font-size: x-large;
+  }
+  .myth{
+    text-align: center;
+    font-family: pacifico;
+    font-size: x-large;
+    color: darkgoldenrod;
+    text-decoration: underline;
+  }
+  .card-text{
+    /* background: lightsteelblue; */
+    border:linen solid 2px;
+    font-style:italic;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, cursive;
+  }
+  
